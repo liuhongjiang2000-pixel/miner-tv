@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 矿洞底 -->
+    <path
+        android:fillColor="#3E2A12"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- 金块主体 -->
+    <path
+        android:fillColor="#F9B616"
+        android:pathData="M54,60 L30,44 L40,24 L68,24 L78,44 Z" />
+    <!-- 高光 -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M44,40 L52,30 L60,30 L52,42 Z" />
+    <!-- 地面 -->
+    <path
+        android:fillColor="#5A3616"
+        android:pathData="M0,78 h108 v30 h-108 z" />
+</vector>
