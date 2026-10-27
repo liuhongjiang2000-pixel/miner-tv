@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A120B">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游戏结束"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        android:textColor="#FFD54F" />
+
+    <TextView
+        android:id="@+id/tv_result_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="28dp"
+        android:text="得分"
+        android:textColor="#FFE0B2"
+        android:textSize="22sp"
+        android:lineSpacingMultiplier="1.4" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="52dp">
+
+        <Button
+            android:id="@+id/btn_again"
+            android:layout_width="260dp"
+            android:layout_height="64dp"
+            android:layout_marginHorizontal="12dp"
+            android:text="再来一局"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_tomenu"
+            android:layout_width="260dp"
+            android:layout_height="64dp"
+            android:layout_marginHorizontal="12dp"
+            android:text="返回主菜单"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
