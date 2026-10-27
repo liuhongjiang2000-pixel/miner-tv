@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A120B">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黄金矿工"
+        android:textColor="#FFD54F"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        android:paddingBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最高分：0"
+        android:textColor="#FFE0B2"
+        android:textSize="22sp"
+        android:paddingBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认键放钩 · 抓到值钱的矿石"
+        android:textColor="#A1887F"
+        android:textSize="16sp"
+        android:paddingBottom="44dp" />
+
+    <Button
+        android:id="@+id/btn_menu_start"
+        android:layout_width="320dp"
+        android:layout_height="72dp"
+        android:layout_marginVertical="8dp"
+        android:nextFocusDown="@id/btn_menu_voice"
+        android:text="开始游戏"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_menu_voice"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_marginVertical="8dp"
+        android:nextFocusUp="@id/btn_menu_start"
+        android:text="语音：开"
+        android:textSize="18sp" />
+
+</LinearLayout>
