@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- 夜空 -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M0,0h320v180h-320z" />
+    <!-- 月亮 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M268,34 m-16,0 a16,16 0 1,1 32,0 a16,16 0 1,1 -32,0" />
+    <!-- 地面 -->
+    <path
+        android:fillColor="#5A3616"
+        android:pathData="M0,108 h320 v72 h-320 z" />
+    <!-- 金块 1（大） -->
+    <path
+        android:fillColor="#F9B616"
+        android:pathData="M70,150 L44,132 L56,112 L86,112 L98,132 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M62,128 L72,118 L80,118 L70,130 Z" />
+    <!-- 金块 2（小） -->
+    <path
+        android:fillColor="#F9B616"
+        android:pathData="M180,148 L166,138 L172,126 L190,126 L196,138 Z" />
+    <!-- 钩子绳 -->
+    <path
+        android:strokeColor="#BCAAA4"
+        android:strokeWidth="2"
+        android:pathData="M150,28 L132,78" />
+    <!-- 钩子爪 -->
+    <path
+        android:strokeColor="#90A4AE"
+        android:strokeWidth="5"
+        android:pathData="M132,78 q-12,2 -10,14 M132,78 q12,2 10,14" />
+    <!-- 矿工小屋剪影 -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M132,10 h36 v18 h-36 z M126,10 L150,0 L174,10 Z" />
+    <!-- 标题条 -->
+    <path
+        android:fillColor="#5A3616"
+        android:pathData="M90,146 h140 v26 h-140 z" />
+</vector>
